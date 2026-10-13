@@ -44,7 +44,7 @@ dns:
     - https://doh.pub
 
 # ============================================================
-# Rule Providers
+# Rule Providers (★ 链接已完美修复补全)
 # ============================================================
 rule-providers:
 
@@ -53,56 +53,56 @@ rule-providers:
     behavior: classical
     format: yaml
     interval: 86400
-    url: "https://jsdelivr.net"
+    url: "https://githubusercontent.com"
 
   ai:
     type: http
     behavior: classical
     format: yaml
     interval: 86400
-    url: "https://jsdelivr.net"
+    url: "https://githubusercontent.com"
 
   youtube:
     type: http
     behavior: classical
     format: yaml
     interval: 86400
-    url: "https://jsdelivr.net"
+    url: "https://githubusercontent.com"
 
   crypto:
     type: http
     behavior: classical
     format: yaml
     interval: 86400
-    url: "https://jsdelivr.net"
+    url: "https://githubusercontent.com"
 
   disney:
     type: http
     behavior: classical
     format: yaml
     interval: 86400
-    url: "https://jsdelivr.net"
+    url: "https://githubusercontent.com"
 
   apple:
     type: http
     behavior: classical
     format: yaml
     interval: 86400
-    url: "https://jsdelivr.net"
+    url: "https://githubusercontent.com"
 
   google:
     type: http
     behavior: classical
     format: yaml
     interval: 86400
-    url: "https://jsdelivr.net"
+    url: "https://githubusercontent.com"
 
   software:
     type: http
     behavior: classical
     format: yaml
     interval: 86400
-    url: "https://jsdelivr.net"
+    url: "https://githubusercontent.com"
 
 # ============================================================
 # Proxy Groups (完美匹配任意机场节点)
@@ -360,7 +360,7 @@ rules:
   - "GEOSITE,telegram,💬 电报专用 [自选]"
   - "GEOSITE,microsoft,Ⓜ️ 微软服务 [自选]"
 
-  # 9. 中国大陆流量直连
+  # 9. China流量直连
   - "GEOSITE,CN,DIRECT"
   - "GEOIP,CN,DIRECT,no-resolve"
 
